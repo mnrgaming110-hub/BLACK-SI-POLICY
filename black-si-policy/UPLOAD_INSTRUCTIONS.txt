@@ -1,0 +1,18 @@
+BLACK SI - Meta app website documents
+
+1. In your GitHub repository mnrgaming110-hub/BLACK-SI, choose Add file > Upload files.
+2. Upload privacy.html and deletion.html (not this instruction file unless desired).
+3. Commit changes to main.
+4. Go to repository Settings > Pages > Build and deployment > Deploy from a branch.
+5. Select branch main and folder /(root), then Save.
+6. Wait until GitHub Pages displays the live site URL. It should normally be:
+   https://mnrgaming110-hub.github.io/BLACK-SI/privacy.html
+   https://mnrgaming110-hub.github.io/BLACK-SI/deletion.html
+   BUT open and verify both pages before entering URLs into Meta.
+7. In Meta Developers > BLACK SI > App settings > Basic:
+   Privacy policy URL: the working privacy.html page URL
+   User data deletion: Data deletion instructions URL, pointing to the working deletion.html page URL
+   Select an accurate app category and save changes.
+8. Review the actual policy wording against your practices before publishing. Update any statement that does not match your setup.
+
+Important: Publishing these pages does NOT guarantee removal of Meta's API access blocked (code 200, subcode 5258005). Keep ENABLE_PUBLISHING=false until Meta access is resolved and pending review statuses are checked.
